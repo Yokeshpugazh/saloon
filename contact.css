@@ -1,0 +1,70 @@
+body{
+    background-image: url(/images/contact2.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content .c1,.c3{
+    text-transform: uppercase;
+    font-family: Impact;
+    font-size: larger;
+    color: darkred;
+}
+.content .c2,.c4{
+    text-transform: lowercase;
+    font-family: Brush Script MT;
+    font-size: xx-large;
+    position: relative;
+    bottom: 40px;
+    color: silver;
+    left: 30px;
+
+}
+.content .c3{
+    position: relative;
+    bottom: 70px;
+}
+.content .c4{
+    position: relative;
+    bottom: 110px;
+}
+.mail a h1{
+    border: 4px solid black;
+    font-size: 30px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    bottom: 4.5em;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: Impact;
+    color: black;
+    text-decoration: none;
+
+}
+.mail h1:hover{
+    background-color: black;
+    color: white;
+}
+.anchor a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left: 40em;
+    /* top: 50px; */
+    font-family: Lucida Sans;
+    /* left:40em ; */
+    /* bottom:10px; */
+    border-right: 1px solid black;
+    top: 10px;
+    
+    
+    
+}
+.anchor a:hover{
+    text-decoration: underline;
+}

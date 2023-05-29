@@ -1,0 +1,100 @@
+body{
+    background-image: url(/images/location.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.head{
+    color:black;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+    font-family: Rockwell;
+    
+}
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    right: 27em;
+    bottom: 50px;
+}
+.anchor a:hover{
+    text-decoration: underline;
+}
+.thank{
+    text-align: center;
+}
+.home{
+    padding: 10PX;
+    position: relative;
+    left: 58em;
+    top: 10px;
+    text-shadow: 2px 2px 2px red;
+    font-size: x-large;
+
+}
+.reg{
+    border: 4px solid black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 35em;
+    left: 65em;
+    text-align: center;
+    border-radius: 30px 10px 60px 90px;
+    box-shadow: 2px 2px 20px  red;
+
+}
+.reg h1{
+    text-align: center;
+    font-family: Rockwell;
+    text-shadow: 2px 2px 2px red;
+}
+.serv{
+    position: relative;
+    left: 70px;
+    display: flex;
+    justify-content:;
+    flex-direction: row;
+    font-size: large;
+    font-weight: bolder;
+    color:black;
+
+}
+.date{
+    position: relative;
+    right: 35px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px red;
+}
+button{
+    background-color: red ;
+    padding: 10px;
+    border-radius: 8px;
+    width: 10em;
+    box-shadow: 2px 2px 2px greenyellow;
+    font-family: Lucida Sans Unicode ;
+    color: white;
+    font-size: medium;
+    transition-duration: 2s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    /* background-color: transparent; */
+    box-shadow: 6px 1px 7px yellowgreen;
+}
+input:hover{
+    background-color: red;
+}
