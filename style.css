@@ -119,6 +119,7 @@
         position: relative;
         bottom: 30px;
         /* text-decoration:underline; */
+        animation: header 2s ease-in-out;
     }
     .top p{
         position: relative;
@@ -126,15 +127,25 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color:darkolivegreen;
     }   
-    .top a{
+    .top .main a{
         position: relative;
         bottom: 170px;
         left: 23em;
         color: black;
         font-size: 30px;
+        animation: nav 2s ease-in-out;
         
-        
-    }
+       }
+       @keyframes nav{
+        0%{
+            transform: translateY(-100%);
+        }
+       }
+ @keyframes header{
+     0%{
+        transform: translateY(-100%);
+     }
+ }
     .container{
         display: flex;
        
