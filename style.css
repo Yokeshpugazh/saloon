@@ -171,10 +171,10 @@
         text-decoration: underline;
     }
     
-    @media screen and (min-width:320px) and (max-width:620px){
+    @media screen and (min-width:320px) and (max-width:390px){
 
         .main{
-            width: 150%;
+            width: 110%;
             height: 50%;
             background-image: url(./images/main2.jpg);
             background-repeat: no-repeat;
@@ -185,19 +185,23 @@
         span{
             font-family: Bahnschrift;
             color: chocolate;
+            position: relative;
+            top: 10px;
+            right: 60px;
         }
-        .head h1{
-            color: goldenrod;
-            font-size: 20px;
+        .head1 .head h1{
+            color: white;
+            font-size: 17px;
+            text-decoration: underline;
+            position: relative;
+            right: 14em;
+            top:30px ;
+            width: 400px;
+
             /* width: 20px; */
             /* width: 30px; */
         }
-        .head h1 u{
-            position: relative;
-            top: 50px;
-            right: 40px;
-
-        }
+     
         .head h1 span{
             position: relative;
             top: 60px;
@@ -208,13 +212,13 @@
             color: white;
         }
         .anchor a {
-            font-size: 10px;
+            font-size: 7px;
             text-decoration: none;
             color: black;
             position: relative;
-            right: 20px;
-            left: 190px;
-            bottom: 35px;
+            right: 10px;
+            left: 140px;
+            bottom: 25px;
             border-right: 1px solid black;
             font-family: Lucida Sans;
             
@@ -232,8 +236,8 @@
         }
         .step h2{
             border: 4px solid black;
-            font-size: 15px;
-            width: 200px;
+            font-size: 10px;
+            width: 150px;
             position: relative;
             right: 120px;
             top: 10px;
@@ -248,12 +252,12 @@
         
         .book a h2{
             border: 4px solid black;
-            font-size: 15px;
-            width: 100px;
+            font-size: 10px;
+            width: 50px;
             position: relative;
             right: 75px;
             /* bottom: 10px; */
-            top: 20px;
+            top: 10px;
             background-color: white;
             text-transform: uppercase;
             font-family: Impact;
@@ -286,15 +290,15 @@
             color: white;
             position: relative;
             bottom: 19px;
-            width: 455px;
+            width: 330px;
         }
         .top{
             background-color: white;
-            height: 30px;
+            height: 20px;
             text-align: center;
-            font-size: 13px;
+            font-size: 10px;
             position: relative;
-            right: 75px;
+            right: 95px;
             
             
         }
@@ -305,7 +309,7 @@
         }
         .top p{
             position: relative;
-            bottom: 35px;
+            bottom: 30px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color:darkolivegreen;
         }   
@@ -323,6 +327,807 @@
         }
         .card{
             margin: 10px;
+            margin-top: 20px;
+            border: 1px solid black;
+            background-color: silver;
+            width: 100%;
+            height: 255px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 9px silver;
+            overflow: hidden;
+        }
+        .card a{
+            color: black;
+            text-decoration: none;
+            font-weight:bolder;
+            
+        }
+        .card p{
+            color: black;
+        }
+        .card h1{
+            font-family: Consolas;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: medium;
+            /* border-bottom: 2px solid black; */
+            /* text-shadow: 2px 3x 7px black; */
+        }
+        .icons i{
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            
+        }
+        .branch a p:hover{
+            text-decoration: underline;
+        }
+    }
+    
+    @media screen and (min-width:340px) and (max-width:350px){
+
+        .main{
+            width: 110%;
+            height: 50%;
+            background-image: url(./images/main2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        span{
+            font-family: Bahnschrift;
+            color: chocolate;
+            position: relative;
+            top: 10px;
+            right: 60px;
+        }
+        .head1 .head h1{
+            color: white;
+            font-size: 17px;
+            text-decoration: underline;
+            position: relative;
+            right: 14em;
+            top:30px ;
+            width: 400px;
+
+            /* width: 20px; */
+            /* width: 30px; */
+        }
+     
+        .head h1 span{
+            position: relative;
+            top: 60px;
+            right: 50px;
+
+        }
+        .welcome{
+            color: white;
+        }
+        .anchor a {
+            font-size: 7px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            right: 10px;
+            left: 140px;
+            bottom: 25px;
+            border-right: 1px solid black;
+            font-family: Lucida Sans;
+            
+            
+        }
+        .anchor a:hover{
+            /* text-decoration: underline; */
+            color: green;
+    
+        }
+        .head1{
+            position: relative;
+            bottom: 40x;
+          
+        }
+        .step h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 150px;
+            position: relative;
+            right: 120px;
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+        }
+        .step  h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .book a h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 50px;
+            position: relative;
+            right: 75px;
+            /* bottom: 10px; */
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+            color: black;
+            text-decoration: none;
+        
+        }
+        .book h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .head{
+            text-align: center;
+            padding: 150px;
+            font-size: 20px;
+           
+        
+        }
+        .head h1{
+            position: relative;
+            bottom: 45px;
+            right: 20px;
+            color: white;
+            right: 2.5em;
+        }
+        .bottom{
+            background-color:black;
+            height: 300px;
+            color: white;
+            position: relative;
+            bottom: 19px;
+            width: 370px;
+        }
+        .top{
+            background-color: white;
+            height: 20px;
+            text-align: center;
+            font-size: 10px;
+            position: relative;
+            right: 95px;
+            
+            
+        }
+        .top h1{
+            position: relative;
+            bottom: 15px;
+            text-decoration:underline;
+        }
+        .top p{
+            position: relative;
+            bottom: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkolivegreen;
+        }   
+        .top a{
+            position: relative;
+            bottom: 80px;
+            left: 11em;
+            color: black;
+            font-size: 15px;
+            
+            
+        }
+        .container{
+            display: flex;
+        }
+        .card{
+            margin: 10px;
+            margin-top: 20px;
+            border: 1px solid black;
+            background-color: silver;
+            width: 100%;
+            height: 255px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 9px silver;
+            overflow: hidden;
+        }
+        .card a{
+            color: black;
+            text-decoration: none;
+            font-weight:bolder;
+            
+        }
+        .card p{
+            color: black;
+        }
+        .card h1{
+            font-family: Consolas;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: medium;
+            /* border-bottom: 2px solid black; */
+            /* text-shadow: 2px 3x 7px black; */
+        }
+        .icons i{
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            
+        }
+        .branch a p:hover{
+            text-decoration: underline;
+        }
+    }
+    
+    @media screen and (min-width:350px) and (max-width:390px){
+
+        .main{
+            width: 110%;
+            height: 50%;
+            background-image: url(./images/main2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        span{
+            font-family: Bahnschrift;
+            color: chocolate;
+            position: relative;
+            top: 10px;
+            right: 70px;
+        }
+        .head1 .head h1{
+            color: white;
+            font-size: 17px;
+            text-decoration: underline;
+            position: relative;
+            right: 14em;
+            top:30px ;
+            width: 400px;
+
+            /* width: 20px; */
+            /* width: 30px; */
+        }
+     
+        .head h1 span{
+            position: relative;
+            top: 60px;
+            right: 50px;
+
+        }
+        .welcome{
+            color: white;
+        }
+        .anchor a {
+            font-size: 7px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            right: 10px;
+            left: 140px;
+            bottom: 25px;
+            border-right: 1px solid black;
+            font-family: Lucida Sans;
+            
+            
+        }
+        .anchor a:hover{
+            /* text-decoration: underline; */
+            color: green;
+    
+        }
+        .head1{
+            position: relative;
+            bottom: 40x;
+          
+        }
+        .step h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 150px;
+            position: relative;
+            right: 120px;
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+        }
+        .step  h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .book a h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 50px;
+            position: relative;
+            right: 75px;
+            /* bottom: 10px; */
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+            color: black;
+            text-decoration: none;
+        
+        }
+        .book h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .head{
+            text-align: center;
+            padding: 150px;
+            font-size: 20px;
+           
+        
+        }
+        .head h1{
+            position: relative;
+            bottom: 45px;
+            right: 20px;
+            color: white;
+            right: 2.5em;
+        }
+        .bottom{
+            background-color:black;
+            height: 300px;
+            color: white;
+            position: relative;
+            bottom: 19px;
+            width: 370px;
+        }
+        .top{
+            background-color: white;
+            height: 20px;
+            text-align: center;
+            font-size: 10px;
+            position: relative;
+            right: 95px;
+            
+            
+        }
+        .top h1{
+            position: relative;
+            bottom: 15px;
+            text-decoration:underline;
+        }
+        .top p{
+            position: relative;
+            bottom: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkolivegreen;
+        }   
+        .top a{
+            position: relative;
+            bottom: 80px;
+            left: 11em;
+            color: black;
+            font-size: 15px;
+            
+            
+        }
+        .container{
+            display: flex;
+        }
+        .card{
+            margin: 10px;
+            margin-top: 20px;
+            border: 1px solid black;
+            background-color: silver;
+            width: 100%;
+            height: 255px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 9px silver;
+            overflow: hidden;
+        }
+        .card a{
+            color: black;
+            text-decoration: none;
+            font-weight:bolder;
+            
+        }
+        .card p{
+            color: black;
+        }
+        .card h1{
+            font-family: Consolas;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: medium;
+            /* border-bottom: 2px solid black; */
+            /* text-shadow: 2px 3x 7px black; */
+        }
+        .icons i{
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            
+        }
+        .branch a p:hover{
+            text-decoration: underline;
+        }
+    }
+    
+
+
+    @media screen and (min-width:380px) and (max-width:390px){
+
+        .main{
+            width: 110%;
+            height: 50%;
+            background-image: url(./images/main2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        span{
+            font-family: Bahnschrift;
+            color: chocolate;
+            position: relative;
+            top: 10px;
+            right: 90px;
+        }
+        .head1 .head h1{
+            color: white;
+            font-size: 17px;
+            text-decoration: underline;
+            position: relative;
+            right: 14em;
+            top:30px ;
+            width: 400px;
+
+            /* width: 20px; */
+            /* width: 30px; */
+        }
+     
+        .head h1 span{
+            position: relative;
+            top: 60px;
+            right: 50px;
+
+        }
+        .welcome{
+            color: white;
+        }
+        .anchor a {
+            font-size: 7px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            right: 10px;
+            left: 180px;
+            bottom: 25px;
+            border-right: 1px solid black;
+            font-family: Lucida Sans;
+            
+            
+        }
+        .anchor a:hover{
+            /* text-decoration: underline; */
+            color: green;
+    
+        }
+        .head1{
+            position: relative;
+            bottom: 40x;
+          
+        }
+        .step h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 150px;
+            position: relative;
+            right: 120px;
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+        }
+        .step  h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .book a h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 50px;
+            position: relative;
+            right: 75px;
+            /* bottom: 10px; */
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+            color: black;
+            text-decoration: none;
+        
+        }
+        .book h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .head{
+            text-align: center;
+            padding: 150px;
+            font-size: 20px;
+           
+        
+        }
+        .head h1{
+            position: relative;
+            bottom: 45px;
+            right: 20px;
+            color: white;
+            right: 2.5em;
+        }
+        .bottom{
+            background-color:black;
+            height: 300px;
+            color: white;
+            position: relative;
+            bottom: 19px;
+            width: 400px;
+        }
+        .top{
+            background-color: white;
+            height: 20px;
+            text-align: center;
+            font-size: 10px;
+            position: relative;
+            right: 95px;
+            
+            
+        }
+        .top h1{
+            position: relative;
+            bottom: 15px;
+            text-decoration:underline;
+        }
+        .top p{
+            position: relative;
+            bottom: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkolivegreen;
+        }   
+        .top a{
+            position: relative;
+            bottom: 80px;
+            left: 11em;
+            color: black;
+            font-size: 15px;
+            
+            
+        }
+        .container{
+            display: flex;
+        }
+        .card{
+            margin: 10px;
+            margin-top: 20px;
+            border: 1px solid black;
+            background-color: silver;
+            width: 100%;
+            height: 255px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 2px 2px 9px silver;
+            overflow: hidden;
+        }
+        .card a{
+            color: black;
+            text-decoration: none;
+            font-weight:bolder;
+            
+        }
+        .card p{
+            color: black;
+        }
+        .card h1{
+            font-family: Consolas;
+            text-transform: uppercase;
+            text-decoration: underline;
+            font-size: medium;
+            /* border-bottom: 2px solid black; */
+            /* text-shadow: 2px 3x 7px black; */
+        }
+        .icons i{
+            font-size: x-large;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            
+        }
+        .branch a p:hover{
+            text-decoration: underline;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width:390px) and (max-width:620px){
+
+        .main{
+            width: 110%;
+            height: 50%;
+            background-image: url(./images/main2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+         
+        }
+        span{
+            font-family: Bahnschrift;
+            color: chocolate;
+            position: relative;
+            /* left: 20px; */
+            right: 90px;
+        }
+        .head1 .head h1{
+            color: white;
+            font-size: 17px;
+            text-decoration: underline;
+            position: relative;
+            right: 14em;
+            top:30px ;
+            width: 400px;
+
+            /* width: 20px; */
+            /* width: 30px; */
+        }
+     
+        .head h1 span{
+            position: relative;
+            top: 60px;
+            right: 50px;
+
+        }
+        .welcome{
+            color: white;
+        }
+        .anchor a {
+            font-size: 7px;
+            text-decoration: none;
+            color: black;
+            position: relative;
+            right: 10px;
+            left: 200px;
+            bottom: 25px;
+            border-right: 1px solid black;
+            font-family: Lucida Sans;
+            
+            
+        }
+        .anchor a:hover{
+            /* text-decoration: underline; */
+            color: green;
+    
+        }
+        .head1{
+            position: relative;
+            bottom: 40x;
+          
+        }
+        .step h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 150px;
+            position: relative;
+            right: 120px;
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+        }
+        .step  h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .book a h2{
+            border: 4px solid black;
+            font-size: 10px;
+            width: 50px;
+            position: relative;
+            right: 65px;
+            /* bottom: 10px; */
+            top: 10px;
+            background-color: white;
+            text-transform: uppercase;
+            font-family: Impact;
+            color: black;
+            text-decoration: none;
+        
+        }
+        .book h2:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        .head{
+            text-align: center;
+            padding: 150px;
+            font-size: 20px;
+           
+        
+        }
+        .head h1{
+            position: relative;
+            bottom: 45px;
+            right: 20px;
+            color: white;
+            right: 2.5em;
+        }
+        .bottom{
+            background-color:black;
+            height: 300px;
+            color: white;
+            position: relative;
+            bottom: 19px;
+            width: 410px;
+        }
+        .top{
+            background-color: white;
+            height: 20px;
+            text-align: center;
+            font-size: 10px;
+            position: relative;
+            right: 95px;
+            
+            
+        }
+        .top h1{
+            position: relative;
+            bottom: 15px;
+            text-decoration:underline;
+        }
+        .top p{
+            position: relative;
+            bottom: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkolivegreen;
+        }   
+        .top a{
+            position: relative;
+            bottom: 80px;
+            left: 11em;
+            color: black;
+            font-size: 15px;
+            
+            
+        }
+        .container{
+            display: flex;
+        }
+        .card{
+            margin: 10px;
+            margin-top: 20px;
             border: 1px solid black;
             background-color: silver;
             width: 100%;
