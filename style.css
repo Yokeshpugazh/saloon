@@ -247,11 +247,11 @@
             transform: translateX(-100%);
         }
     }
-    .anchor a{
+    .main .anchor a{
         font-size: 13px;
         /* margin: 10px; */
         position: relative;
-        left: 100px;
+        left: 200px;
         top: 5%;
         
     }
