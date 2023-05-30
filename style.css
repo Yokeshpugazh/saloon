@@ -16,6 +16,13 @@
         bottom: 2em;
         right: 30px;
         font-size: 100px;
+        animation: spot 2s ease-in-out;
+    }
+    @keyframes spot{
+
+        0%{
+            transform: translateX(-100%);
+        }
     }
     .head h1{
         color: goldenrod;
@@ -24,7 +31,7 @@
     .welcome{
         color: white;
     }
-    .anchor a {
+    .main .anchor a {
         font-size: 26px;
         text-decoration: none;
         color: black;
@@ -36,10 +43,13 @@
         left:40em ;
         bottom:60px;
         border-right: 1px solid black;
-        
-        
-        
-    }
+        /* animation: nav 2s ease-in-out; */
+      }
+      /* @keyframes nav{
+        0%{
+            transform: translateY(-100%);
+        }
+       } */
     .anchor a:hover{
         /* text-decoration: underline; */
         color: green;
@@ -60,7 +70,15 @@
         background-color: white;
         text-transform: uppercase;
         font-family: Impact;
+        /* animation: step 2s ease-in-out; */
     }
+    /* @keyframes step{
+        0%{
+            transform: translateY(400%);
+        }
+    }
+     */
+
     .step  h2:hover{
         background-color: black;
         color: white;
@@ -78,8 +96,10 @@
         font-family: Impact;
         color: black;
         text-decoration: none;
+        
     
     }
+   
     .book :hover{
         background-color: black;
         color: white;
@@ -92,12 +112,18 @@
        
     
     }
-    .head h1{
+    .head1 .head h1{
         position: relative;
         bottom: 90px;
         right: 40px;
         color: white;
         right: 5em;
+        animation: men 2s ease-in-out;
+    }
+    @keyframes men{
+        0%{
+            transform: translateX(-100%);
+        }
     }
     .bottom{
         background-color:black;
@@ -133,14 +159,10 @@
         left: 23em;
         color: black;
         font-size: 30px;
-        animation: nav 2s ease-in-out;
+        
         
        }
-       @keyframes nav{
-        0%{
-            transform: translateY(-100%);
-        }
-       }
+      
  @keyframes header{
      0%{
         transform: translateY(-100%);
@@ -152,6 +174,7 @@
         
         
     }
+
     .card{
         margin: 20px;
         border: 1px solid black;
@@ -206,6 +229,23 @@
          position: relative;
          top: 1px;
         
+    }
+    span{
+        font-family: Bahnschrift;
+        color: chocolate;
+        display: flex;
+        position: relative;
+        bottom: 2em;
+        right: 30px;
+        font-size: 100px;
+        animation: spot 2s ease-in-out;
+    }
+
+    @keyframes spot{
+        
+        0%{
+            transform: translateX(-100%);
+        }
     }
     .anchor a{
         font-size: 13px;
