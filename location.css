@@ -201,3 +201,60 @@ input{
 input:hover{
     background-color: red;
 }
+
+/* medi querty */
+
+@media screen and  (min-width:320px) and (max-width:600px){
+.head h1{
+    width: 300px;
+    font-size: 30px;
+    position: relative;
+    left: 101px;
+}
+.home a{
+    position: relative;
+    right: 40em;
+}
+.reg{
+    position: relative;
+    top: 2em;
+    right: 110px;
+    left: 60px;
+}
+}
+@media screen and  (min-width:600px) and (max-width:1200px){
+    .head h1 {
+        width: 300px;
+        font-size: 30px;
+        position: relative;
+        left: 310px;
+    }
+    .home a{
+        position: relative;
+        right: 30em;
+    }
+    .reg {
+        position: relative;
+        top: 2em;
+        right: 110px;
+        left: 270px;
+    }
+}
+@media screen and  (min-width:1200px) and (max-width:1700px){
+    .head h1{
+        width: 300px;
+        font-size: 30px;
+        position: relative;
+        left: 601px;
+    }
+    .home a{
+        position: relative;
+        /* right:3em; */
+    }
+    .reg{
+        position: relative;
+        top: 2em;
+        right: 110px;
+        left: 550px;
+    }
+}
