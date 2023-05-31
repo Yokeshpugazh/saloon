@@ -42,7 +42,7 @@ ul{
     position: relative;
     bottom: 7em;
     left: 18em;
-    border-left: 2px solid black;
+    /* border-left: 2px solid black; */
 }
 .skin h1{
     color:brown;
@@ -66,4 +66,74 @@ ul{
 
 .anchor a:hover{
     text-decoration: underline;
+}
+
+@media screen and  (min-width:320px) and (max-width:600px){
+.anchor a{
+    font-size: 15px;
+    position: relative;
+    right: -50px;
+    left: 130px;
+  
+}
+.hair h1{
+    font-size: 20px;
+    text-shadow: 1px 5px 6px;
+}
+.hair li{
+    font-size: small;
+    position: relative;
+    right: 20px;
+}
+.massage h1{
+    font-size: 20px;
+    text-shadow: 1px 5px 6px;
+}
+.massage li{
+    font-size: small;
+    position: relative;
+    right: 20px;
+}
+.skin h1{
+    font-size: 20px;
+    text-shadow: 1px 5px 6px;
+}
+.skin li{
+    font-size: small;
+    position: relative;
+    right: 20px;
+}
+.skin{
+    position: relative;
+    top: 250px;
+    right: 20px;
+    left: -10px;
+}
+.hair{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+}
+
+@media screen and  (min-width:600px) and (max-width:800px){
+    .anchor a{
+        font-size: 15px;
+        position: relative;
+        right: -20px;
+        left: 290px;
+      
+    }
+
+}
+
+@media screen and  (min-width:800px) and (max-width:1200px){
+    .anchor a{
+        font-size: 15px;
+        position: relative;
+        right: -20px;
+        left: 390px;
+      
+    }
+    
 }
