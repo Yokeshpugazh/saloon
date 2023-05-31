@@ -222,12 +222,13 @@
         text-decoration: underline;
     }
     
-   @media screen and  (min-width:320px) and (max-width:600px){
+   @media screen and  (min-width:320px) and (max-width:900px){
    
     .top h1{
          font-size: 30px;
          position: relative;
          top: 1px;
+         height: 50px;
         
     }
     span{
@@ -252,7 +253,7 @@
         /* margin: 10px; */
         position: relative;
         left: 200px;
-        top: 5%;
+        /* top: -70px; */
         
     }
  .head1 .head h1{
@@ -300,23 +301,22 @@
 
 
 
-   /* min width 600px */
+   
 
 
-   @media screen and (max-width:1200px){
+   @media screen and (min-width:900px) and (max-width:1500px){
    
     .top h1{
-         font-size: 30px;
-         position: relative;
-         top: 1px;
-        
-    }
-    .anchor a{
-        font-size: 13px;
+         font-size: 50px;
+      }
+    .main .anchor a{
+        font-size: 23px;
         /* margin: 10px; */
         position: relative;
-        left: 200px;
-        top: 5%;
+        left: 450px;
+        right: -9em;
+        top: -70px;
+        bottom: -90px;
         
     }
  .head1 .head h1{
@@ -360,4 +360,5 @@
    color: black;
    list-style: none;
 }
-   }
+  
+}
