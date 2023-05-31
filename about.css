@@ -120,10 +120,6 @@ body{
     width: 200px;
     left: -3em;
     /* height: 100px; */
-    
-    
- 
-
 }
 @media screen and  (min-width:600px) and (max-width:1200px){
     .top h1{
@@ -251,51 +247,51 @@ body{
             
             }
             @media screen and  (min-width:1400px) and (max-width:1700px){
-            .top h1{
-              display: flex;
-              justify-content: center;
-            }
-            .anchor a {
-                width: 100%;
-                font-size: 26px;
-                text-decoration: none;
-                color: black;
-                padding: 20px;
-                position: relative;
-                left: 35em;
-                top: -60px;
-                font-family: Lucida Sans;
-                /* left: 30px; */
-                border-right: 3px solid black;
-                bottom: 30px;
-                font-weight: bolder;
+                .top h1{
+                    display: flex;
+                    justify-content: center;
+                  }
+                  .anchor a {
+                      width: 100%;
+                      font-size: 26px;
+                      text-decoration: none;
+                      color: black;
+                      padding: 20px;
+                      position: relative;
+                      left: 35em;
+                      top: -60px;
+                      font-family: Lucida Sans;
+                      /* left: 30px; */
+                      border-right: 3px solid black;
+                      bottom: 30px;
+                      font-weight: bolder;
+                      
                 
-            .name h1{
-                font-size: 40px;
+                  }
+                  .name p{
+                      color: deeppink;
+                      font-size: large;
+                      position: relative;
+                      bottom: 130px;
+                      font-weight: 900;
+                      width: 4600px;
+                      text-align: justify;
+                  }
+                  .yokesh h1{
+                      position: relative;
+                      left: 29em;
+                      top: -16em;
+                      font-size: 40px;
+                      /* padding-top: 4.5em; */
+                  }
+                  .ceo img{
+                    position: absolute;
+                    top: 190px;
+                    /* bottom: 3em; */
+                    width: 300px;
+                  }
+                  .name h1{
+                      font-size: 80px;
+                  }
             }
-            }
-            .name p{
-                color: deeppink;
-                font-size: large;
-                position: relative;
-                bottom: 130px;
-                font-weight: 900;
-                width: 4600px;
-                text-align: justify;
-            }
-            .yokesh h1{
-                position: relative;
-                left: 29em;
-                top: -16em;
-                font-size: 40px;
-                /* padding-top: 4.5em; */
-            }
-            .ceo img{
-              position: absolute;
-              top: 190px;
-              /* bottom: 3em; */
-              width: 300px;
-             
-                
-            
-            }
+        }

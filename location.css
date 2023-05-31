@@ -61,7 +61,7 @@ body{
     position: relative;
     left: 70px;
     display: flex;
-    justify-content:;
+    /* justify-content:; */
     flex-direction: row;
     font-size: large;
     font-weight: bolder;
@@ -173,7 +173,7 @@ body{
     position: relative;
     left: 70px;
     display: flex;
-    justify-content:;
+    /* justify-content:; */
     flex-direction: row;
     font-size: large;
     font-weight: bolder;
